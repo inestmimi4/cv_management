@@ -1,0 +1,23 @@
+main {
+  background-color: #2c2c2c; // Utilisez une couleur gris foncé
+  color: white; // Assurez-vous que le texte reste lisible
+  padding: 16px; // Ajoutez du padding pour le contenu
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #2c2c2c; // Même couleur que le fond du main
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #007bff; // Bleu pour la barre de défilement
+    border-radius: 10px;
+    border: 3px solid #2c2c2c; // Pour un effet d'espacement
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3; // Bleu plus foncé pour le survol
+  }
+}
